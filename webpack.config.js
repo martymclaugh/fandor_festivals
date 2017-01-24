@@ -8,6 +8,9 @@ module.exports = {
     filename: 'bundle.js'
   },
   module: {
+    preLoaders: [
+        { test: /\.json$/, exclude: /node_modules/, loader: 'json'},
+    ],
     loaders: [{
       test: /\.jsx?$/,
       exclude: /node_modules/,
@@ -19,7 +22,7 @@ module.exports = {
     }]
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js', '.jsx', '.json']
   },
   devServer: {
     historyApiFallback: true,
