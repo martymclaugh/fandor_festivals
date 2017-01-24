@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import FestivalsReducer from './FestivalsReducer';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  festivals: FestivalsReducer
 });
 
 export default rootReducer;
