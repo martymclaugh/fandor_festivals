@@ -5,10 +5,8 @@ import _ from 'lodash';
 
 function renderSlide(id, data){
   let current = _.find(data, { id })
-  console.log(current)
-  if (current !== undefined){
+  if (current !== undefined && current.banner_path !== null){
     let acronym = current.name.match(/\b(\w)/g).join('')
-    console.log(acronym)
     return (
       <div key={id} className="slide-image">
         <div className="acronym"><p>{acronym}</p></div>
@@ -20,7 +18,6 @@ function renderSlide(id, data){
 
 export default (props) => {
   const { slideIds, festivals, slideshow } = props
-  console.log(props)
   const options = {
     autoplay: true,
     slidesToShow: 2,
@@ -33,13 +30,13 @@ export default (props) => {
   }
   return (
     <div className="relative-wrapper">
-    <div className="slider-wrapper">
-      <div className="shade-left"></div>
-      <div className="shade-right"></div>
-      <Carousel {...options}>
-      {slideIds.map((id) => {return renderSlide(id, festivals)})}
-      {renderSlide(slideshow, festivals)}
-      </Carousel>
+      <div className="slider-wrapper">
+        <div className="shade-left"></div>
+        <div className="shade-right"></div>
+        <Carousel {...options}>
+          {slideIds.map((id) => {return renderSlide(id, festivals)})}
+          {renderSlide(slideshow, festivals)}
+        </Carousel>
       </div>
     </div>
   )
