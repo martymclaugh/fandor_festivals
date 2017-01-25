@@ -1,0 +1,55 @@
+.navbar-container {
+  background-color: black;
+  min-width: 990px;
+  height: 80px;
+}
+.nav-container {
+  width: auto;
+  min-width: 850px;
+  background-color: black;
+  height: 80px;
+}
+.fandor_logo {
+  height: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+pre {
+  padding: 0;
+}
+
+.dropdown-toggle {
+  margin-right: 10%;
+  background-color: transparent;
+  font-family: "ff-meta-web-pro",sans-serif;
+  font-weight: lighter;
+}
+.btn-default {
+  border-color: transparent;
+  color: white;
+}
+.dropdown-toggle:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: #FF5717;
+}
+.subscribe-btn {
+  font-family: "ff-meta-web-pro",sans-serif;
+  margin-right: 5%;
+  background-color: #FF5717;
+}
+.subscribe-btn:hover {
+  color: white;
+  background-color: #3FABB0;
+  border-color: #3FABB0;
+}
+.login-link {
+  color: #4b97c6;
+  font-family: "ff-meta-web-pro",sans-serif;
+  padding-top: 10px;
+  padding-right: 5%;
+}
+.login-link:hover {
+  text-decoration: none;
+  color: #4b97c6;
+}
