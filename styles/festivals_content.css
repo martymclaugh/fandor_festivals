@@ -1,0 +1,24 @@
+.festivals-wrapper {
+  min-width: 960px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.festivals-content {
+  width: 950px;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid blue;
+}
+
+.festivals-preview {
+  border: 1px solid pink;
+  width: 66.6%;
+  align-self: flex-start;
+}
+.festivals-list {
+  width: 32%;
+}
