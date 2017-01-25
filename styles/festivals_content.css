@@ -1,6 +1,7 @@
+/*festivals preview*/
+
 .festivals-wrapper {
   min-width: 960px;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,10 +12,14 @@
   align-self: center;
   flex-direction: row;
   align-items: center;
-  border: 1px solid blue;
+}
+.festivals-content-title{
+  display: flex;
+  flex-direction: column;
+  width: 742.5px
 }
 .festivals-title {
-  width: 950px;
+  width: 742.5px;
   display: flex;
   align-items: flex-start;
   align-self: center;
@@ -24,7 +29,6 @@
   margin: 40px 0 10px 18px;
 }
 .festivals-preview {
-  border: 1px solid pink;
   min-width: 742.5px;
   max-width: 742.5px;
   width: auto;
@@ -44,6 +48,9 @@
   max-width: 230px;
   border: 1px solid #c8c8c6;
   border-radius: 5px;
+}
+.preview-box:hover {
+  cursor: pointer;
 }
 .preview-box-image {
   width: 228px;
@@ -76,4 +83,44 @@
   color: white;
   font-family: sans-serif;
   font-size: 11px;
+}
+
+/*festivals list*/
+
+.festivals-list {
+  border-left: 1px dotted black;
+  height: auto;
+  align-self: flex-start;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+.festivals-list-title {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.festivals-list-motto {
+  color: #8e8e8d;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.festivals-list-header {
+  border-bottom: 1px dotted black;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.festival-link {
+  font-size: 11px;
+  color: #139BBD;
+  font-family: sans-serif;
+}
+
+.festival-link:hover {
+  cursor: pointer;
 }
