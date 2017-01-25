@@ -16,18 +16,22 @@ export default (props) => {
           </div>
         </DropdownButton>
         <DropdownButton id="Featured" title="Featured">
-          <MenuItem href="#books">Books</MenuItem>
-          <MenuItem href="#podcasts">Podcasts</MenuItem>
-          <MenuItem href="#">Tech I Like</MenuItem>
-          <MenuItem href="#">About me</MenuItem>
-          <MenuItem href="#addBlog">Add a Blog</MenuItem>
+          <div className="hover-display">
+            <p>1st</p>
+            <p>2nd</p>
+            <p>3rd</p>
+            <p>4th</p>
+            <p>5th</p>
+          </div>
         </DropdownButton>
         <DropdownButton id="Community" title="Community">
-          <MenuItem href="#books">Books</MenuItem>
-          <MenuItem href="#podcasts">Podcasts</MenuItem>
-          <MenuItem href="#">Tech I Like</MenuItem>
-          <MenuItem href="#">About me</MenuItem>
-          <MenuItem href="#addBlog">Add a Blog</MenuItem>
+          <div className="hover-display">
+            <p>1st</p>
+            <p>2nd</p>
+            <p>3rd</p>
+            <p>4th</p>
+            <p>5th</p>
+          </div>
         </DropdownButton>
         <button type="submit" className="btn btn-default pull-right subscribe-btn">Subscribe Now</button>
         <a href="#" className="login-link pull-right">Log in</a>
