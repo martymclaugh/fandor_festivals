@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchJson } from '../actions';
+import NavBar from '../components/NavBar';
 
 class Festivals extends Component {
   componentWillMount(){
@@ -10,6 +11,7 @@ class Festivals extends Component {
     return(
       <div>
         <pre>
+          <NavBar />
           {JSON.stringify(this.props, null, 2)}
         </pre>
       </div>
