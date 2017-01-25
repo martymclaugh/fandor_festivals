@@ -25,8 +25,12 @@ class Festivals extends Component {
           slideshow={slideshow}
           slideIds={marquee}
           festivals={festivals}/>
-        <FestivalsContent />
-        {/* {JSON.stringify(this.props, null, 2)} */}
+        <FestivalsContent
+          display={marquee}
+          upcoming={ffa_upcoming}
+          all={ffa_all}
+          data={festivals}
+          title="Marquee Festivals"/>
       </div>
     )
   }
