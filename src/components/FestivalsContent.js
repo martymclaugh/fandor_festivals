@@ -3,11 +3,15 @@ import FestivalsPreview from './FestivalsPreview';
 import FestivalsList from './FestivalsList';
 
 export default (props) => {
+  console.log(props)
+  const { all, data, display, upcoming, title } = props
   return (
     <div className="festivals-wrapper">
-      Festivals Content
+      <h3 className="festivals-title">{title}</h3>
       <div className="festivals-content">
-        <FestivalsPreview />
+        <FestivalsPreview
+          display={display}
+          data={data}/>
         <FestivalsList />
       </div>
     </div>
