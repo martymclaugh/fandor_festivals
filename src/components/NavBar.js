@@ -4,7 +4,7 @@ import { DropdownButton, MenuItem, Nav } from 'react-bootstrap'
 export default (props) => {
   return (
     <div className="nav-container">
-      <div className="container navbar-container">
+      <div className="container navbar-container fandor-width">
         <img className="fandor_logo" src={require('../images/fandor_logo.png')} alt=""/>
         <DropdownButton id="Films" title="Films">
           <div className="hover-display">
