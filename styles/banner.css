@@ -1,0 +1,39 @@
+/*banner*/
+.fandor-width {
+  width: 990px;
+}
+.main-banner-container {
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  background-color: #413F3D
+}
+.banner-content {
+  margin-left: 0;
+  margin-right: 320px;
+  padding-left: 1%;
+  align-self: center;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+}
+
+.banner-header {
+  padding-top: 5%;
+  font-weight: lighter;;
+  font-family: sans-serif;
+  font-size: 24px;
+  color: #ED9E43;
+}
+.banner-motto {
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: white;
+}
+
+@media only screen and (max-width:650px) {
+  .banner-content {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

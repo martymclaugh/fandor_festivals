@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
+import Festivals from './containers/Festivals';
+import NavBar from './components/NavBar';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <h2>Welcome to Marty</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <NavBar />
+        <Festivals />
       </div>
     );
   }
 }
-
-export default App;
