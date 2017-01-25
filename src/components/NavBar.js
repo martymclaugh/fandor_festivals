@@ -8,29 +8,26 @@ export default (props) => {
         <img className="fandor_logo" src={require('../images/fandor_logo.png')} alt=""/>
         <DropdownButton id="Films" title="Films">
           <div className="hover-display">
-            <p>1st</p>
-            <p>2nd</p>
-            <p>3rd</p>
-            <p>4th</p>
-            <p>5th</p>
+            <p>New Releases</p>
+            <p>Genres</p>
+            <p>International</p>
+            <p>Popular</p>
+            <p>Festivals</p>
           </div>
         </DropdownButton>
         <DropdownButton id="Featured" title="Featured">
           <div className="hover-display">
-            <p>1st</p>
-            <p>2nd</p>
-            <p>3rd</p>
-            <p>4th</p>
-            <p>5th</p>
+            <p>Spotlights</p>
+            <p>Coming Soon</p>
+            <p>Keyframe</p>
+            <p>Video Essays</p>
           </div>
         </DropdownButton>
         <DropdownButton id="Community" title="Community">
           <div className="hover-display">
-            <p>1st</p>
-            <p>2nd</p>
-            <p>3rd</p>
-            <p>4th</p>
-            <p>5th</p>
+            <p>Top Movie Reviews</p>
+            <p>Movie Lists</p>
+            <p>FIX Filmmakers</p>
           </div>
         </DropdownButton>
         <button type="submit" className="btn btn-default pull-right subscribe-btn">Subscribe Now</button>

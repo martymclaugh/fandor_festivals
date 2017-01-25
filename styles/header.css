@@ -13,10 +13,23 @@
   background-color: black;
   height: 85.5px;
 }
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.7);
+}
 .fandor_logo {
   height: 50%;
   padding-right: 5%;
 }
+.hover-display p {
+  color: white;
+  padding: 10px;
+}
+.hover-display p:hover {
+  cursor: pointer;
+  background-color: #FF5717;
+  border-radius: 10px;
+}
+
 .root {
   margin-left: -10px;
   width: 100%;

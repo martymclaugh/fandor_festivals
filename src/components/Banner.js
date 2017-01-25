@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default (props) => {
-  console.log(props, 'props')
   return (
     <div className="main-banner-container col-md-12">
       <div className="banner-content">

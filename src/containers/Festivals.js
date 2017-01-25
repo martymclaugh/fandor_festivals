@@ -37,7 +37,6 @@ class Festivals extends Component {
 }
 
 function mapStateToProps(state){
-  console.log(state, 'STATE')
   return {
     festivals: state
   }

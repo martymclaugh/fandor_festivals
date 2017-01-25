@@ -3,7 +3,6 @@ import _ from 'lodash';
 
 function renderFestivalLink(id, data){
   let current = _.find(data, { id });
-  console.log(current.name)
   return <p key={current.id} className="festival-link">{current.name}</p>
 }
 

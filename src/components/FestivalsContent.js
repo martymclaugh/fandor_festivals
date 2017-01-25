@@ -3,7 +3,6 @@ import FestivalsPreview from './FestivalsPreview';
 import FestivalsList from './FestivalsList';
 
 export default (props) => {
-  console.log(props)
   const { all, data, display, upcoming, title } = props
   const FestivalAlliance = "Fandor Festival Alliance"
   const motto = "We connect film festivals to their audiences through social buzz, multimedia promotion, great movies, and exciting offers. Go ahead! Check out our partners."
