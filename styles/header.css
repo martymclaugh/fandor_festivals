@@ -27,7 +27,7 @@
 .dropdown-toggle {
   margin-right: 10%;
   background-color: transparent;
-  font-family: "ff-meta-web-pro",sans-serif;
+  font-family: sans-serif;
   font-weight: lighter;
 }
 .btn-default {
@@ -40,7 +40,7 @@
   color: #FF5717;
 }
 .subscribe-btn {
-  font-family: "ff-meta-web-pro",sans-serif;
+  font-family: sans-serif;
   margin-right: 5%;
   background-color: #FF5717;
 }
@@ -51,7 +51,7 @@
 }
 .login-link {
   color: #4b97c6;
-  font-family: "ff-meta-web-pro",sans-serif;
+  font-family: sans-serif;
   padding-top: 10px;
   padding-right: 5%;
 }

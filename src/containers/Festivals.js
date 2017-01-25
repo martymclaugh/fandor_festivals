@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchJson } from '../actions';
-import NavBar from '../components/NavBar';
 import Banner from '../components/Banner';
 import Slider from '../components/Slider';
+import FestivalsContent from '../components/FestivalsContent';
 
 class Festivals extends Component {
   componentWillMount(){
@@ -18,17 +18,19 @@ class Festivals extends Component {
     }
     return(
       <div>
-          <NavBar />
-          <Banner
-            header="Film Festivals"
-            motto={motto}/>
-            <div className="slider-wrapper">
-              <Slider
-              slideshow={slideshow}
-              slideIds={marquee}
-              festivals={festivals}/>
-            </div>
-          {/* {JSON.stringify(this.props, null, 2)} */}
+        <Banner
+          header="Film Festivals"
+          motto={motto}/>
+        <Slider
+          slideshow={slideshow}
+          slideIds={marquee}
+          festivals={festivals}/>
+        <FestivalsContent
+          display={marquee}
+          upcoming={ffa_upcoming}
+          all={ffa_all}
+          data={festivals}
+          title="Marquee Festivals"/>
       </div>
     )
   }
