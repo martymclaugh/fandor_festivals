@@ -4,7 +4,7 @@ export default (props) => {
   console.log(props, 'props')
   return (
     <div className="main-banner-container col-md-12">
-      <div className="banner-content fandor-width">
+      <div className="banner-content">
         <div>
           <h1 className="banner-header">
             {props.header}
